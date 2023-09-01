@@ -6,6 +6,7 @@ function cambiarModo() {
     seccion.classList.toggle('seccion-clara');
     seccion.classList.toggle('seccion-oscura');
   });
+  boton.innerHTML=(boton.innerHTML==='Modo claro') ? 'Modo oscuro':'Modo claro';
 }
 
 boton.addEventListener('click', cambiarModo);
