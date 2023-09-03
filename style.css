@@ -60,6 +60,11 @@ color:var(--black);
 
 /*Barra de Navegacion*/
 
+.boton-modo{
+  align-items: end;
+  justify-content: center;
+  
+}
 .modo{
     
     border: 2px solid black;
@@ -68,7 +73,7 @@ color:var(--black);
     text-align: center;
     font-size: 16px;
     font-weight: bold;
-    border-radius: 50%;
+    border-radius: 20px;
     margin-left:20px ;
   
 }
@@ -312,6 +317,7 @@ badges{
     background-color: var(--blueWhite);
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px var(--grey);
+    min-height: 200px;
 
 }
 
@@ -526,8 +532,8 @@ footer{
   }
   
   .animated {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
   }
