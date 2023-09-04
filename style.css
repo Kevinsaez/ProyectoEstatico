@@ -127,7 +127,6 @@ color:var(--black);
 
 /*------ seccion herramientas------*/
 
-
 .iconSkill{
     font-size: 90px;
     color: var(--blueWhite);
@@ -451,7 +450,15 @@ footer{
     }
 }
 
+/* Herramientas */
 
+
+@media(max-width:991px){
+  .herramientas .row{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  }
 @media(max-width:767px){
   .modo{
       font-size: 10px;
