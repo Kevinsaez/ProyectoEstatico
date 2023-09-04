@@ -426,6 +426,12 @@ footer{
 }
 }
 
+@media(max-width:620px){
+.acerca-de-mi{
+  max-height: 900px;
+  font-size: small;
+}
+}
 @media(max-width:400px){
     .overlay p{
         font-size: 10px;
@@ -444,6 +450,7 @@ footer{
         font-size: 18px;
     }
 }
+
 
 @media(max-width:767px){
   .modo{
